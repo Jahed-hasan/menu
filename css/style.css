@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+
+}
+  ol ul{
+
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: arial;
+
+}
+nav ul li .submenu{
+    position: absolute;
+    background-color: white;
+    border: 1px solid;
+    transition: 0.5s;
+    opacity:0;
+    visibility: hidden;
+    margin-top: 40px;
+    
+}
+nav ul li .submenu li{
+    display: block;
+    border-bottom: 1px solid;
+}
+nav ul li .submenu li a{
+    color: black;
+    transition: 0.5s;
+}
+nav ul li:hover .submenu{
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+    
+}
+nav ul li .submenu li:hover a{
+    margin-left: 26px;
+}
+/*naver*/
+
+nav{
+
+    background-image: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    padding: 5px 0;
+}
+
+nav ul li{
+  display: inline-block;   
+
+}
+
+nav ul li a{
+    color: aliceblue;
+   
+    padding: 15px 23px;
+    display: block;
+    margin: 0 10px;
+}
+
+nav ul li a:hover{
+    background-color:rgba(255, 255, 255,0.2);
+
+}
+
+/* naver end*/
